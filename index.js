@@ -4,8 +4,8 @@ var request = require('request');
 var app = express();
 
 // You MUST change these values, consult the Messenger Platform Getting Started guide
-var verify_token = 'superdupersecrettokenyay';
-var token = "43dff234lKedYBvMKfiKbonmbwaYUuGmBtmKtoJ8b3YxgPKOJpeNNLLIWxpJAqYSyorgQFQclU59IkYBXzaFASIFYOUREADTHISYOUAREAWESOMEOh4xh36szaxgysl2u7gP1xNexpLiLkOhiE2wZZdqlm9GgyouQAwv2ZPoUoBnJMrpqlqoMdvgoPMbfImbNkxGsISPhbsTzs4ps3d14";
+var verify_token = 'THIS WOULD BE THE SECRET KEY!!!';
+var token = "THIS WOULD BE THE TOKEN FROM FACEBOOK!!!";
 
 app.use(bodyParser.json());
 
